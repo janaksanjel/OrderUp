@@ -1,0 +1,24 @@
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile h1 {
+    text-align: center;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+  }
+  
+  .profile-details p {
+    margin-bottom: 10px;
+  }
+  
+  .profile-details b {
+    font-weight: bold;
+  }
+  
