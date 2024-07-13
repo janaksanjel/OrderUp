@@ -37,16 +37,16 @@ import menu_8 from './Sandwich.png'
 
 // food list
 
-// import foodsals from './FoodSalad.png'
-// import FoodSpringRolls from './FoodSpringRolls.png'
-// import FoodSushiRolls from './FoodSushiRolls.png'
-// import VeggieWrapFood from './VeggieWrapFood.png'
-// import MixedVegetableCurry from './MixedVegetableCurry.png'
-// import VegetableBiryani from './VegetableBiryani.png'
-// import ArrabbiataPasta from './ArrabbiataPasta.png'
-// import PadThaiNoodles from './PadThaiNoodles.png'
-// import BeefChowMein from './BeefChowMein.png'
-// import Tiramisu from './Tiramisu.png'
+import foodsals from './FoodSalad.png'
+import FoodSpringRolls from './FoodSpringRolls.png'
+import FoodSushiRolls from './FoodSushiRolls.png'
+import VeggieWrapFood from './VeggieWrapFood.png'
+import MixedVegetableCurry from './MixedVegetableCurry.png'
+import VegetableBiryani from './VegetableBiryani.png'
+import ArrabbiataPasta from './ArrabbiataPasta.png'
+import PadThaiNoodles from './PadThaiNoodles.png'
+import BeefChowMein from './BeefChowMein.png'
+import Tiramisu from './Tiramisu.png'
 
 export const assets ={
     logo,
@@ -110,90 +110,90 @@ export const Menu_List = [
 ];
 
  
-// export const food_list =[
-//     {
-//         _id: "1",
-//         name: "Salad",
-//         image: foodsals,
-//         price: 100,
-//         description: "Healthy and refreshing salad with fresh vegetables and dressing.",
-//         category: "Salad"
-//     },
-//     {
-//         _id: "2",
-//         name: "Spring Rolls",
-//         image: FoodSpringRolls,
-//         price: 110,
-//         description: "Crispy spring rolls filled with vegetables and served with dipping sauce.",
-//         category: "Rolls"
-//     },
-//     {
-//         _id: "3",
-//         name: "Sushi Rolls",
-//         image: FoodSushiRolls,
-//         price: 150,
-//         description: "Assorted sushi rolls with fresh fish, avocado, and sushi rice.",
-//         category: "Rolls"
-//     },
-//     {
-//         _id: "4",
-//         name: "Veggie Wrap",
-//         image: VeggieWrapFood,
-//         price: 120,
-//         description: "Healthy veggie wrap filled with assorted vegetables and hummus.",
-//         category: "Rolls"
-//     },
+export const food_list =[
+    {
+        _id: "1",
+        name: "Salad",
+        image: foodsals,
+        price: 100,
+        description: "Healthy and refreshing salad with fresh vegetables and dressing.",
+        category: "Salad"
+    },
+    {
+        _id: "2",
+        name: "Spring Rolls",
+        image: FoodSpringRolls,
+        price: 110,
+        description: "Crispy spring rolls filled with vegetables and served with dipping sauce.",
+        category: "Rolls"
+    },
+    {
+        _id: "3",
+        name: "Sushi Rolls",
+        image: FoodSushiRolls,
+        price: 150,
+        description: "Assorted sushi rolls with fresh fish, avocado, and sushi rice.",
+        category: "Rolls"
+    },
+    {
+        _id: "4",
+        name: "Veggie Wrap",
+        image: VeggieWrapFood,
+        price: 120,
+        description: "Healthy veggie wrap filled with assorted vegetables and hummus.",
+        category: "Rolls"
+    },
    
-//     {
-//         _id: "5",
-//         name: "Mixed Vegetable Curry",
-//         image: MixedVegetableCurry,
-//         price: 100,
-//         description: "Assorted mixed vegetable curry served with rice or naan.",
-//         category: "Pure Veg"
-//     },
-//     {
-//         _id: "6",
-//         name: "Vegetable Biryani",
-//         image: VegetableBiryani,
-//         price: 140,
-//         description: "Flavorful vegetable biryani cooked with fragrant spices and basmati rice.",
-//         category: "Pure Veg"
-//     },
+    {
+        _id: "5",
+        name: "Mixed Vegetable Curry",
+        image: MixedVegetableCurry,
+        price: 100,
+        description: "Assorted mixed vegetable curry served with rice or naan.",
+        category: "Pure Veg"
+    },
+    {
+        _id: "6",
+        name: "Vegetable Biryani",
+        image: VegetableBiryani,
+        price: 140,
+        description: "Flavorful vegetable biryani cooked with fragrant spices and basmati rice.",
+        category: "Pure Veg"
+    },
    
-//     {
-//         _id: "8",
-//         name: "Arrabbiata Pasta",
-//         image: ArrabbiataPasta,
-//         price: 130,
-//         description: "Spicy arrabbiata pasta with tomatoes, garlic, and chili flakes.",
-//         category: "Pasta"
-//     },
+    {
+        _id: "8",
+        name: "Arrabbiata Pasta",
+        image: ArrabbiataPasta,
+        price: 130,
+        description: "Spicy arrabbiata pasta with tomatoes, garlic, and chili flakes.",
+        category: "Pasta"
+    },
  
     
-//     {
-//         _id: "9",
-//         name: "Pad Thai Noodles",
-//         image: PadThaiNoodles,
-//         price: 140,
-//         description: "Thai-style pad Thai noodles with shrimp, tofu, peanuts, and tamarind sauce.",
-//         category: "Noodles"
-//     },
-//     {
-//         _id: "10",
-//         name: "Beef Chow Mein",
-//         image: BeefChowMein,
-//         price: 160,
-//         description: "Stir-fried beef chow mein with vegetables and soy sauce.",
-//         category: "Noodles"
-//     },
-//     {
-//         _id: "11",
-//         name: "Tiramisu",
-//         image: Tiramisu,
-//         price: 90,
-//         description: "Classic Italian tiramisu dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
-//         category: "Deserts"
-//     }
+    {
+        _id: "9",
+        name: "Pad Thai Noodles",
+        image: PadThaiNoodles,
+        price: 140,
+        description: "Thai-style pad Thai noodles with shrimp, tofu, peanuts, and tamarind sauce.",
+        category: "Noodles"
+    },
+    {
+        _id: "10",
+        name: "Beef Chow Mein",
+        image: BeefChowMein,
+        price: 160,
+        description: "Stir-fried beef chow mein with vegetables and soy sauce.",
+        category: "Noodles"
+    },
+    {
+        _id: "11",
+        name: "Tiramisu",
+        image: Tiramisu,
+        price: 90,
+        description: "Classic Italian tiramisu dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+        category: "Deserts"
+    }
     
-// ]
+]
