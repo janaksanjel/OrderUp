@@ -22,7 +22,7 @@ function Footer() {
         <div className="footer-content-center">
           <h2>Get in Touch</h2>
           <ul>
-            <li>+977 9840748285</li>
+            <li>+977 9840******</li>
             <li>janaksanjel12@gmail.com</li>
           </ul>
         </div>
