@@ -114,16 +114,7 @@ function Cart() {
         
         </div>
 
-        <div className="cart-promo-code">
-        <div>
-          <p>Apply Promo Code</p>
-
-          <div className="card-promo-code-input">
-            <input type="text" placeholder="Enter Promo Code"/>
-            <button>Apply</button>
-          </div>
-        </div>
-      </div>
+      
         
       </div>
       <button className='buttoncheckoutt' onClick={()=>navigate('/order')}>PROCEED TO CHECKOUT</button>
