@@ -54,7 +54,7 @@ function Navbar({ setshowlogin }) {
         </li>
       </ul>
       <div className="navbar-right">
-        <img className='offer' src={assets.offer_icon} alt="offer_icon" width="30" height="30" />
+        
         <div className="navbar-search-icon">
           <Link to='/cart'><img src={assets.basket_icon} alt="Basket Icon" width="30" height="30" /></Link>
           <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
